@@ -19,12 +19,12 @@ ADDONS = {}
 #USER_AGENT = "eactivos_auctions (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Concurrency and throttling settings
 #CONCURRENT_REQUESTS = 16
-CONCURRENT_REQUESTS_PER_DOMAIN = 1
-DOWNLOAD_DELAY = 1
+# CONCURRENT_REQUESTS_PER_DOMAIN = 1
+# DOWNLOAD_DELAY = 1
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
