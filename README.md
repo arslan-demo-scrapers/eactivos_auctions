@@ -18,9 +18,9 @@ codebase**.
 
 ## Step 1 -- Install Python & Development Environment
 
-1.  Install **Python 3 (latest version recommended)**\
+1.  Install **Python 3 (latest version recommended)**
 
-2.  (Optional but Recommended) Install **PyCharm Community Edition**:\
+2.  (Optional but Recommended) Install **PyCharm Community Edition**:
     https://www.jetbrains.com/pycharm/download/
 
 3.  Create a Virtual Environment (Windows/Linux Guide):\
