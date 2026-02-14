@@ -52,6 +52,15 @@ class EactivosAuctionsSpider(Spider):
     custom_settings = {
         'FEEDS': feeds,
         'CONCURRENT_REQUESTS': 1,
+
+        'FILES_STORE': '../downloaded_files',
+        'FILES_URLS_FIELD': 'Document_Links',
+        'FILES_RESULT_FIELD': 'Downloaded_File_Paths',
+
+        "ITEM_PIPELINES": {
+            'eactivos_auctions.eactivos_auctions.pipelines.EactivosAuctionsFilesPipeline': 300,
+            'eactivos_auctions.eactivos_auctions.pipelines.EactivosAuctionsDatabasePipeline': 400,
+        },
     }
 
     headers = {
